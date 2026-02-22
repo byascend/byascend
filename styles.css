@@ -10,6 +10,7 @@ body {
   color: #F5F5F5;
 }
 
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -36,6 +37,7 @@ nav a:hover {
   color: #D4AF37;
 }
 
+/* Hero Section */
 .hero {
   height: 90vh;
   display: flex;
@@ -90,6 +92,7 @@ nav a:hover {
   color: #000;
 }
 
+/* Iron Crown Section */
 .iron-crown {
   padding: 100px 20px;
   text-align: center;
@@ -108,6 +111,29 @@ nav a:hover {
   color: #aaa;
 }
 
+/* Our Story Section */
+.our-story {
+  padding: 100px 20px;
+  text-align: center;
+  background-color: #111111;
+}
+
+.our-story h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  color: #D4AF37;
+  margin-bottom: 30px;
+}
+
+.our-story p {
+  max-width: 650px;
+  margin: 0 auto 20px auto;
+  color: #ccc;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Problem → Solution Section */
 .problem-solution {
   display: flex;
   justify-content: space-around;
@@ -119,6 +145,7 @@ nav a:hover {
   max-width: 400px;
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 30px;
