@@ -1,3 +1,4 @@
+/* Global Reset */
 * {
   margin: 0;
   padding: 0;
@@ -8,33 +9,35 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #0A0A0A;
   color: #F5F5F5;
+  line-height: 1.6;
 }
 
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 25px 60px;
-  background: #111111;
+/* Header / Branding */
+.brand-header {
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+  background-color: #111111;
 }
 
-.logo {
+.brand-mark {
   font-family: 'Playfair Display', serif;
-  font-size: 24px;
+  font-size: 72px;
+  color: #D4AF37;
+  letter-spacing: 4px;
+}
+
+.brand-name {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  letter-spacing: 4px;
+  margin-top: 10px;
+}
+
+.brand-tagline {
+  font-size: 14px;
+  color: #c5a64a;
+  margin-top: 8px;
   letter-spacing: 2px;
-  color: #D4AF37;
-}
-
-nav a {
-  color: #F5F5F5;
-  text-decoration: none;
-  margin-left: 30px;
-  font-weight: 300;
-  transition: 0.3s;
-}
-
-nav a:hover {
-  color: #D4AF37;
 }
 
 /* Coming Soon Banner */
@@ -50,12 +53,8 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-  height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  padding: 0 20px;
+  padding: 120px 20px;
   background: linear-gradient(to bottom, #0A0A0A, #111111);
 }
 
@@ -103,57 +102,42 @@ nav a:hover {
   color: #000;
 }
 
-/* Iron Crown Section */
-.iron-crown {
-  padding: 100px 20px;
+/* Sections */
+section {
+  padding: 80px 20px;
   text-align: center;
 }
 
-.iron-crown h2 {
+section h2 {
   font-family: 'Playfair Display', serif;
   font-size: 40px;
   color: #D4AF37;
   margin-bottom: 20px;
 }
 
-.description {
-  max-width: 600px;
-  margin: 0 auto;
-  color: #aaa;
-}
-
-/* Our Story Section */
-.our-story {
-  padding: 100px 20px;
-  text-align: center;
-  background-color: #111111;
-}
-
-.our-story h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 40px;
-  color: #D4AF37;
-  margin-bottom: 30px;
-}
-
-.our-story p {
-  max-width: 650px;
+section p {
+  max-width: 700px;
   margin: 0 auto 20px auto;
   color: #ccc;
   font-size: 18px;
   line-height: 1.6;
 }
 
-/* Problem → Solution Section */
-.problem-solution {
-  display: flex;
-  justify-content: space-around;
-  padding: 80px 40px;
-  background: #111111;
+.iron-crown .description {
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  color: #aaa;
 }
 
-.problem-solution div {
-  max-width: 400px;
+.community, .philosophy, .reality {
+  background-color: #111111;
+}
+
+/* Final CTA */
+.final-cta {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #1a1a1a;
 }
 
 /* Footer */
