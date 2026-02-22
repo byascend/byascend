@@ -37,6 +37,17 @@ nav a:hover {
   color: #D4AF37;
 }
 
+/* Coming Soon Banner */
+.coming-soon {
+  background-color: #1a1a1a;
+  color: #D4AF37;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 1px solid #333;
+}
+
 /* Hero Section */
 .hero {
   height: 90vh;
