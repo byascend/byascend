@@ -1,7 +1,34 @@
+.iron-header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #222;
+}
+
+.iron-banner {
+    max-width: 400px;
+    width: 90%;
+}
+
 .iron-hero {
-    background: linear-gradient(to bottom, #111, #000);
     text-align: center;
     padding: 100px 20px;
+    background: linear-gradient(to bottom, #111, #000);
+}
+
+.range-highlight {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #111;
+}
+
+.range-highlight img {
+    width: 80%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.range-highlight h3 {
+    color: #c5a64a;
 }
 
 .product-grid {
@@ -14,16 +41,26 @@
 
 .product-card {
     background-color: #1a1a1a;
-    border: 1px solid #c5a64a;
-    padding: 40px 20px;
+    border: 1px solid rgba(197,166,74,0.4);
+    padding: 30px;
     text-align: center;
-    font-weight: bold;
-    letter-spacing: 1px;
     transition: 0.3s;
 }
 
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
 .product-card:hover {
-    background-color: #c5a64a;
-    color: #000;
-    cursor: pointer;
+    transform: translateY(-5px);
+    border-color: #c5a64a;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    border-top: 1px solid #222;
 }
